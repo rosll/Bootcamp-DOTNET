@@ -35,6 +35,7 @@ namespace Revisao
                         indiceAluno++;
                         
                         break;
+                    
                     case "2":
                         foreach (var a in alunos)
                         {
@@ -44,6 +45,7 @@ namespace Revisao
                             }
                         }
                         break;
+                    
                     case "3":
                         decimal notaTotal = 0;
                         var nrAlunos = 0;
